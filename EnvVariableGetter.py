@@ -1,4 +1,5 @@
-from Libs import os, error
+from Libs import os
+from ErrorHandler import error 
 def getVar(envVarName):
     if envVarName is not None:
         return str(os.getenv(envVarName))
