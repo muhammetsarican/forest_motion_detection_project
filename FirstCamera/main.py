@@ -11,6 +11,6 @@ class fCamera:
         # cv2.waitKey(0)
     
     def search(self):
-        SearchObject.SearchOnImage().search(self.frame)
+        SearchObject.SearchOnImage(self).search()
     def destroyAll():
         cv2.destroyAllWindows()
